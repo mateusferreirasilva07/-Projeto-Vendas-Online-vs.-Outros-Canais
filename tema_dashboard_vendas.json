@@ -1,0 +1,87 @@
+{
+  "name": "Vendas por Canal - Corporativo",
+  "dataColors": [
+    "#B7C4CC",
+    "#0078D4",
+    "#7F919C",
+    "#3D4A54",
+    "#2E9E6B",
+    "#D64550",
+    "#E0A030",
+    "#5B4B8A"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F2A33",
+  "tableAccent": "#0078D4",
+  "good": "#2E9E6B",
+  "neutral": "#E0A030",
+  "bad": "#D64550",
+  "minimum": "#D64550",
+  "center": "#F3F5F7",
+  "maximum": "#2E9E6B",
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1F2A33"
+    },
+    "title": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1F2A33"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1F2A33"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#5F6B76"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#E3E8EC" } },
+            "radius": 8
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": false
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#1F2A33" } },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F3F5F7" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
