@@ -1,4 +1,4 @@
-# 📊 Vendas Online vs. Outros Canais — Devemos Investir Mais no Digital?
+# 📊 Vendas Online vs. Outros Canais - Devemos Investir Mais no Digital?
 
 Solução de Business Intelligence desenvolvida para subsidiar a decisão da diretoria sobre o aumento de investimento no canal digital, comparando o desempenho do e-commerce frente aos demais canais de venda em faturamento, ticket médio, volume de transações e comportamento de compra.
 
