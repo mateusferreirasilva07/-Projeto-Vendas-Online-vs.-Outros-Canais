@@ -43,33 +43,28 @@ Antes de qualquer modelagem no Power BI, a primeira etapa do projeto foi validar
 A query abaixo unifica `FactOnlineSales` e `FactSales` (via `JOIN` com `DimChannel`) usando `UNION ALL`, trazendo faturamento total, ticket médio e total de transações por canal:
 
 ```sql
-SELECT
-    'Online' AS canal,
-    COUNT(*) AS total_transacoes,
-    SUM(SalesAmount) AS faturamento_total,
-    AVG(SalesAmount) AS ticket_medio
-FROM FactOnlineSales
+USE ContosoRetailDW
 
-UNION ALL
-
-SELECT
-    c.ChannelName,
-    COUNT(*) AS total_transacoes,
-    SUM(f.SalesAmount) AS faturamento_total,
-    AVG(f.SalesAmount) AS ticket_medio
-FROM FactSales f
-JOIN DimChannel c
-    ON c.ChannelKey = f.channelKey
-GROUP BY c.ChannelName
-
+SELECT 'Online' AS canal, 
+COUNT(*)               AS total_transacoes, 
+SUM(SalesAmount)       AS faturamento_total, 
+AVG(SalesAmount)       AS ticket_medio 
+FROM FactOnlineSales 
+UNION ALL 
+SELECT c.ChannelName, 
+COUNT(*)               AS total_transacoes, 
+SUM(f.SalesAmount)     AS faturamento_total, 
+AVG(f.SalesAmount)     AS ticket_medio 
+FROM FactSales f 
+JOIN DimChannel c ON c.ChannelKey = f.channelKey 
+GROUP BY c.ChannelName 
 ORDER BY faturamento_total DESC;
+
 ```
 
 Essa consulta serviu como **ponto de verdade inicial**: os totais obtidos aqui foram usados posteriormente para validar se as medidas DAX criadas no Power BI (faturamento, ticket médio, transações) batiam com o que o SQL já havia calculado de forma independente — uma prática importante para garantir confiabilidade no dashboard final.
 
-<p align="center">
-  <img src="SUBSTITUA_PELA_URL_DO_PRINT_DA_QUERY" alt="Resultado da query SQL de comparação por canal" width="100%">
-</p>
+
 
 <br>
 
