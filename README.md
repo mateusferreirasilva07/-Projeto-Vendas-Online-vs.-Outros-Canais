@@ -133,9 +133,21 @@ Responde à pergunta central em poucos segundos de leitura: o tamanho atual do c
 - **Gráfico de rosca:** participação de mercado por canal, com o Online destacado em cor própria frente aos demais canais em tons neutros.
 - **Síntese textual dinâmica:** frase gerada a partir de medidas DAX, atualizando automaticamente os números conforme os filtros aplicados.
 
+
+
+
+
+
+
 <p align="center">
-  <img src="SUBSTITUA_PELA_URL_DA_IMAGEM_PAGINA_1" alt="Página 1 - Visão Geral" width="100%">
+  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-02%20104330.png?raw=true" alt="Captura do Projeto 1" width="75%">
 </p>
+
+
+<p align="center">
+  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-02%20104500.png?raw=true" alt="Captura do Projeto 2" width="75%">
+</p>
+
 
 <br>
 
@@ -150,7 +162,12 @@ Aprofunda o "porquê" por trás dos números da Página 1, expondo o padrão de 
 - **Insight textual:** o canal Online realiza significativamente mais transações que os demais canais, com ticket médio menor — padrão típico de comportamento de compra em e-commerce.
 
 <p align="center">
-  <img src="SUBSTITUA_PELA_URL_DA_IMAGEM_PAGINA_2" alt="Página 2 - Comparativo de Canais" width="100%">
+  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-02%20104554.png?raw=true" alt="Captura do Projeto 3" width="75%">
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-02%20104613.png?raw=true" alt="Captura do Projeto 4" width="75%">
 </p>
 
 <br>
@@ -166,8 +183,14 @@ Fecha a narrativa mostrando a direção da tendência ao longo do tempo, não ap
 - **Cartões de Faturamento YTD:** acumulado do ano por canal.
 
 <p align="center">
-  <img src="SUBSTITUA_PELA_URL_DA_IMAGEM_PAGINA_3" alt="Página 3 - Evolução Temporal" width="100%">
+  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-02%20104733.png?raw=true" alt="Captura do Projeto 5" width="75%">
 </p>
+
+
+<p align="center">
+  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-02%20104743.png?raw=true" alt="Captura do Projeto 6" width="75%">
+</p>
+
 
 <br>
 
