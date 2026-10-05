@@ -134,19 +134,19 @@ Responde à pergunta central em poucos segundos de leitura: o tamanho atual do c
 - **Síntese textual dinâmica:** frase gerada a partir de medidas DAX, atualizando automaticamente os números conforme os filtros aplicados.
 
 
+<p align="center">
+  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-02%20104500.png?raw=true" alt="Captura do Projeto 2" width="75%">
+</p>
 
-
-
+<p align="center">
+  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-02%20104500.png?raw=true" alt="Captura do Projeto 2" width="75%">
+</p>
 
 
 <p align="center">
   <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-02%20104330.png?raw=true" alt="Captura do Projeto 1" width="75%">
 </p>
 
-
-<p align="center">
-  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-02%20104500.png?raw=true" alt="Captura do Projeto 2" width="75%">
-</p>
 
 
 <br>
@@ -208,11 +208,11 @@ A paleta foi definida para que o canal Online seja sempre o protagonista visual 
 
 > ⚠️ *Antes de publicar, substitua os valores entre colchetes pelos números reais, já validados no seu modelo.*
 
-Com base na análise do período de 2007 a 2009, o canal Online representa **[XX]%** do faturamento total da companhia, com crescimento de **[XX]%** no último ano — ritmo **[superior/inferior]** ao dos demais canais combinados. Apesar de um ticket médio **[XX]%** menor que o canal físico, o Online compensa essa diferença com um volume de transações **[X]x maior**, sustentando um faturamento absoluto relevante e em trajetória de crescimento.
+Com base na análise do período de 2007 a 2009, o canal Online representa **36%** do faturamento total da companhia, com crescimento de **1,2%** no último ano, ritmo **superior** ao dos demais canais combinados. Apesar de um ticket médio **R$ 26,43** menor que o canal físico, o Online compensa essa diferença com um volume de transações **10x maior**, sustentando um faturamento absoluto relevante e em trajetória de crescimento.
 
-O principal ponto de atenção identificado é o percentual de devolução do canal digital, **[XX]%**, superior à média dos demais canais — um risco operacional típico de e-commerce que deve ser monitorado, mas que não invalida o argumento de crescimento.
+Um ponto de atenção identificado é o percentual de devolução do canal digital, de **1,15%**, melhor que a maioria dos outros canais, o canal físico teve **1,31%** de devolução nos últimos 3 anos, outro ponto a favor do canal online.
 
-**Recomendação:** os dados sustentam a tese de que o canal Online não é apenas relevante em volume de transações, mas também está em trajetória de crescimento consistente frente aos canais tradicionais. Diante disso, recomenda-se **[inserir recomendação final: aumentar o investimento no digital / manter o investimento atual com monitoramento de devolução / etc.]**, com acompanhamento trimestral dos indicadores aqui apresentados para validar a tendência ao longo do tempo.
+**Recomendação:** os dados sustentam a tese de que o canal Online não é apenas relevante em volume de transações, mas também está em trajetória de crescimento consistente frente aos canais tradicionais. Diante disso, recomenda-se **aumentar o investimento no digital**, com acompanhamento trimestral dos indicadores aqui apresentados para validar a tendência ao longo do tempo.
 
 <br>
 
