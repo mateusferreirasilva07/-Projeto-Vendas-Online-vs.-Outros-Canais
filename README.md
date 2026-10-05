@@ -8,7 +8,7 @@ Solução de Business Intelligence desenvolvida para subsidiar a decisão da dir
 
 Este painel foi estruturado para responder a uma pergunta de negócio direta: **o canal Online tem desempenho suficiente para justificar mais investimento, ou os recursos devem continuar concentrados nos canais tradicionais?**
 
-A análise utiliza a base de demonstração **ContosoRetailDW** (Microsoft), unificando duas tabelas fato de origens distintas — vendas digitais e vendas dos demais canais — em um modelo único, permitindo comparação justa entre eles.
+A análise utiliza a base de demonstração **ContosoRetailDW** (Microsoft), unificando duas tabelas fato de origens distintas: vendas digitais e vendas dos demais canais em um modelo único, permitindo comparação justa entre eles.
 
 ### 🌟 Principais Destaques:
 - **Narrativa orientada à decisão:** estrutura em 3 páginas que seguem a lógica conclusão → evidência → tendência, facilitando a leitura por um público gerencial não técnico.
@@ -38,7 +38,7 @@ A análise utiliza a base de demonstração **ContosoRetailDW** (Microsoft), uni
 
 ## 🗄️ Camada SQL — Consulta Unificada de Canais
 
-Antes de qualquer modelagem no Power BI, a primeira etapa do projeto foi validar a comparação entre canais diretamente no SQL Server — tanto para entender a estrutura dos dados quanto para conferir, de forma independente, os números que posteriormente seriam reproduzidos no modelo de BI.
+Antes de qualquer modelagem no Power BI, a primeira etapa do projeto foi validar a comparação entre canais diretamente no SQL Server, tanto para entender a estrutura dos dados quanto para conferir, de forma independente, os números que posteriormente seriam reproduzidos no modelo de BI.
 
 A query abaixo unifica `FactOnlineSales` e `FactSales` (via `JOIN` com `DimChannel`) usando `UNION ALL`, trazendo faturamento total, ticket médio e total de transações por canal:
 
@@ -62,7 +62,7 @@ ORDER BY faturamento_total DESC;
 
 ```
 
-Essa consulta serviu como **ponto de verdade inicial**: os totais obtidos aqui foram usados posteriormente para validar se as medidas DAX criadas no Power BI (faturamento, ticket médio, transações) batiam com o que o SQL já havia calculado de forma independente — uma prática importante para garantir confiabilidade no dashboard final.
+Essa consulta serviu como **ponto de verdade inicial**: os totais obtidos aqui foram usados posteriormente para validar se as medidas DAX criadas no Power BI (faturamento, ticket médio, transações) batiam com o que o SQL já havia calculado de forma independente, uma prática importante para garantir confiabilidade no dashboard final.
 
 
 
@@ -135,7 +135,7 @@ Responde à pergunta central em poucos segundos de leitura: o tamanho atual do c
 
 
 <p align="center">
-  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-02%20104500.png?raw=true" alt="Captura do Projeto 2" width="75%">
+  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-03%20143315.png?raw=true" alt="Captura do Dashboard" width="75%">
 </p>
 
 <p align="center">
@@ -159,7 +159,7 @@ Aprofunda o "porquê" por trás dos números da Página 1, expondo o padrão de 
 - **Matriz comparativa:** faturamento, ticket médio, quantidade de transações e percentual de devolução, lado a lado por canal.
 - **Formatação condicional:** escala de cor automática na coluna de devolução, sinalizando risco operacional sem necessidade de leitura detalhada.
 - **Gráfico combinado (barras + linha):** contrasta visualmente ticket médio e volume de transações — o insight central desta página.
-- **Insight textual:** o canal Online realiza significativamente mais transações que os demais canais, com ticket médio menor — padrão típico de comportamento de compra em e-commerce.
+- **Insight textual:** o canal Online realiza significativamente mais transações que os demais canais, com ticket médio menor, padrão típico de comportamento de compra em e-commerce.
 
 <p align="center">
   <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-02%20104554.png?raw=true" alt="Captura do Projeto 3" width="75%">
