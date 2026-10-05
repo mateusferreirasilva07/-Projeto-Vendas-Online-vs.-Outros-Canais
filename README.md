@@ -158,16 +158,20 @@ Responde à pergunta central em poucos segundos de leitura: o tamanho atual do c
 Aprofunda o "porquê" por trás dos números da Página 1, expondo o padrão de comportamento de compra entre canais.
 - **Matriz comparativa:** faturamento, ticket médio, quantidade de transações e percentual de devolução, lado a lado por canal.
 - **Formatação condicional:** escala de cor automática na coluna de devolução, sinalizando risco operacional sem necessidade de leitura detalhada.
-- **Gráfico combinado (barras + linha):** contrasta visualmente ticket médio e volume de transações — o insight central desta página.
+- **Gráfico combinado (barras + linha):** contrasta visualmente ticket médio e volume de transações, o insight central desta página.
 - **Insight textual:** o canal Online realiza significativamente mais transações que os demais canais, com ticket médio menor, padrão típico de comportamento de compra em e-commerce.
 
 <p align="center">
-  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-02%20104554.png?raw=true" alt="Captura do Projeto 3" width="75%">
+  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-05%20082700.png?raw=true" alt="Captura do Projeto - Imagem 1" width="75%">
 </p>
 
 
 <p align="center">
-  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-02%20104613.png?raw=true" alt="Captura do Projeto 4" width="75%">
+  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-05%20082722.png?raw=true" alt="Captura do Projeto - Imagem 2" width="75%">
+</p>
+
+<p align="center">
+  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-10-05%20082850.png?raw=true" alt="Captura do Projeto - Imagem 3" width="75%">
 </p>
 
 <br>
@@ -198,7 +202,7 @@ Fecha a narrativa mostrando a direção da tendência ao longo do tempo, não ap
 
 ## 🎨 Identidade Visual
 
-A paleta foi definida para que o canal Online seja sempre o protagonista visual — único canal com cor de destaque (azul), enquanto os demais permanecem em tons neutros de cinza. Verde, vermelho e âmbar foram reservados exclusivamente para formatação condicional (crescimento, devolução), nunca como identidade fixa de canal, evitando que a mesma cor significasse coisas diferentes em pontos distintos do dashboard.
+A paleta foi definida para que o canal Online seja sempre o protagonista visual, único canal com cor de destaque (azul), enquanto os demais permanecem em tons neutros que foram reservados exclusivamente para formatação condicional (crescimento, devolução), nunca como identidade fixa de canal, evitando que a mesma cor significasse coisas diferentes em pontos distintos do dashboard.
 
 <br>
 
@@ -206,9 +210,7 @@ A paleta foi definida para que o canal Online seja sempre o protagonista visual 
 
 ## 💡 Insight Final e Recomendação à Diretoria
 
-> ⚠️ *Antes de publicar, substitua os valores entre colchetes pelos números reais, já validados no seu modelo.*
-
-Com base na análise do período de 2007 a 2009, o canal Online representa **36%** do faturamento total da companhia, com crescimento de **1,2%** no último ano, ritmo **superior** ao dos demais canais combinados. Apesar de um ticket médio **R$ 26,43** menor que o canal físico, o Online compensa essa diferença com um volume de transações **10x maior**, sustentando um faturamento absoluto relevante e em trajetória de crescimento.
+Com base na análise do período de 2007 a 2009, o canal Online representa **36%** do faturamento total da companhia, com crescimento de **1,2%** no último ano, ritmo **superior** ao dos demais canais. Apesar de um ticket médio **R$ 26,43** menor que o canal físico, o Online compensa essa diferença com um volume de transações **10x maior**, sustentando um faturamento absoluto relevante e em trajetória de crescimento.
 
 Um ponto de atenção identificado é o percentual de devolução do canal digital, de **1,15%**, melhor que a maioria dos outros canais, o canal físico teve **1,31%** de devolução nos últimos 3 anos, outro ponto a favor do canal online.
 
