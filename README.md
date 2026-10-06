@@ -81,7 +81,7 @@ Duas abordagens foram avaliadas: tratar a unificação no SQL Server, via uma `V
 1. **Realismo operacional:** reflete um cenário comum no dia a dia de um analista de BI, que muitas vezes tem apenas permissão de leitura no banco de dados, sem acesso para criação de objetos como *Views*.
 2. **Transparência e portabilidade:** mantém todo o pipeline de transformação documentado e auditável dentro do próprio arquivo Power BI, sem dependência de conhecimento prévio do schema do banco por quem for dar manutenção no relatório.
 
-**Como foi feito:** as tabelas `FactOnlineSales` e `FactSales` foram importadas separadamente. Na primeira, foi adicionada uma coluna customizada `Tipo`, fixada como `"Online"`. Na segunda, foi realizado um `Merge` com `DimChannel` para trazer o nome de cada canal físico, padronizando a coluna também como `Tipo`. Em seguida, aplicou-se `Append Queries as New` para unificar as duas em uma única tabela fato, `Vendas_Unificadas`. As queries intermediárias tiveram o carregamento desabilitado (*Enable Load*), permanecendo apenas como passos de transformação — sem gerar tabelas duplicadas no modelo final.
+**Como foi feito:** as tabelas `FactOnlineSales` e `FactSales` foram importadas separadamente. Na primeira, foi adicionada uma coluna customizada `Tipo`, fixada como `"Online"`. Na segunda, foi realizado um `Merge` com `DimChannel` para trazer o nome de cada canal físico, padronizando a coluna também como `Tipo`. Em seguida, aplicou-se `Append Queries as New` para unificar as duas em uma única tabela fato, `Vendas_Unificadas`. As queries intermediárias tiveram o carregamento desabilitado (*Enable Load*), permanecendo apenas como passos de transformação, sem gerar tabelas duplicadas no modelo final.
 
 > *Trade-off consciente: essa abordagem tem custo de performance em bases muito grandes, já que a transformação ocorre no momento do refresh dentro do Power BI, em vez de aproveitar o processamento otimizado do SQL Server. Para o escopo deste projeto, esse custo foi considerado aceitável frente ao ganho de portabilidade e transparência do processo.*
 
@@ -98,6 +98,10 @@ O modelo final segue um star schema simples, com uma fato central e duas dimens�
            |
        DimChannel (atributos complementares)
 ```
+
+<p align="center">
+  <img src="https://github.com/mateusferreirasilva07/-Projeto-Vendas-Online-vs.-Outros-Canais/blob/main/Captura%20de%20tela%202026-09-14%20084108.png?raw=true" alt="Captura do Projeto" width="75%">
+</p>
 
 | Relacionamento | Cardinalidade | Direção do filtro |
 |---|---|---|
